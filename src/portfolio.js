@@ -22,9 +22,15 @@ const illustration = {
 const greeting = {
   username: "Hannah Sun",
   title: "Hi there, I'm Hannah",
-  subTitle: emoji(
-    "🔧 Over three years of experience as a backend developer for Meituan (Dianping App) \n 💻 Proficient in Java and Spring, with over 100k lines of code written for the Dianping App\n 💼 Seeking job in BC, Canada "
-  ),
+  subTitle: [
+    emoji(
+      "🔧 Over three years of experience as a backend developer for Meituan (Dianping App)"
+    ),
+    emoji(
+      " 💻 Proficient in Java and Spring, with over 100k lines of code written for the Dianping App"
+    ),
+    emoji("💼 Seeking job in BC, Canada ")
+  ],
   resumeLink:
     "https://docs.google.com/document/d/1dHEOj-4GocPFqiXej0mltcRS2Pj11NN_NbCD5N9JkWY/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -50,9 +56,20 @@ const skillsSection = {
     "EXPERIENCED BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Back end / User Interfaces for your web and mobile applications"
+      "⚡ Proficient in backend development using Java, Spring, MySQL, and Redis."
     ),
-    emoji("⚡ Integration of third party services such as AWS")
+    emoji(
+      "⚡ Experienced in building and optimizing scalable, high-performance distributed systems."
+    ),
+    emoji(
+      "⚡ Strong skills in database optimization and managing large datasets using techniques like indexing and sharding."
+    ),
+    emoji(
+      "⚡ Adept at collaborating with cross-functional teams to deliver solutions that balance technical efficiency with business goals."
+    ),
+    emoji(
+      "⚡ Skilled in ensuring system stability, performance tuning, and reducing development time through process improvements."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -125,10 +142,13 @@ const educationInfo = {
       logo: require("./assets/images/tongjiLogo.png"),
       subHeader: "Master in Control Science and Engineering",
       duration: "September 2018 - March 2021",
-      desc: "Participated in the research of Robotics and published 2 patterns.",
+      desc: "Ranked in the top 10% of my major. Participated in the research of Robotics and published 2 patterns. Participated in the RoboCup Soccer team(TJArk) and won the China Regional Championship, advancing to the quarterfinals in the World Cup.",
       descBullets: [
-        "Outstanding graduate of Tongji University 2021",
-        "Outstanding student of Tongji University 2018/2019"
+        "2021 Outstanding graduate of Tongji University",
+        "2019 Outstanding student of Tongji University",
+        "Champion of 2019 RoboCup China Open",
+        "SMIC MengNing Scholarship of SongQingling Foundation",
+        "Second Place of 2019 China Post Graduate Mathematical Contest in Modeling"
       ]
     },
     {
@@ -136,8 +156,13 @@ const educationInfo = {
       logo: require("./assets/images/shangdaLogo.png"),
       subHeader: "Bachelor of Engineering in Automation",
       duration: "September 2014 - July 2018",
-      desc: "Ranked 1st in the major. ",
-      descBullets: ["Outstanding graduate of Shanghai University 2018"]
+      desc: "Ranked 1st in the major. Participated in the RoboCup Basketball team and won second place in the China Regional Competition.",
+      descBullets: [
+        "2018 Outstanding Graduate of Shanghai University",
+        "2016/2017 Outstanding Student of Shanghai University",
+        "2016/2017 Excellence Academic Scholarship",
+        "Second Place of 2017 China Robot Competition Basketball Robot Group"
+      ]
     }
   ]
 };
@@ -173,10 +198,10 @@ const workExperiences = {
       company: "Meituan",
       companylogo: require("./assets/images/meituanLogo.png"),
       date: "July 2022 – May 2024",
-      desc: "TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Took on more leadership responsibilities, including system design, backend architecture improvements, and driving key technical initiatives that significantly impacted system scalability, performance, and business operations.",
       descBullets: [
-        "TODO:Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "TODO:Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led the modularization of the review incentive system, reducing development time by 70%. Spearheaded database optimization for Free Trial, improving storage stability and system scalability.",
+        "Developed subscription features for Free Trial, increasing DAU by 16% and driving user engagement."
       ]
     },
     {
@@ -184,10 +209,11 @@ const workExperiences = {
       company: "Meituan",
       companylogo: require("./assets/images/meituanLogo.png"),
       date: "May 2021 – July 2022",
-      desc: "TODO:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Focused on backend development and system maintenance, gaining valuable experience in handling complex systems and supporting various business needs. Actively contributed to system stability, performance optimizations, and the development of new features.",
       descBullets: [
-        "TODO:Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "TODO:Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Contributed to question-answer backend reconstruction, enhancing user management and operational efficiency.",
+        "Supported video processing optimization, reducing processing time by 54% and improving success rates.",
+        "Delivered MVP of review incentive campaign manage system, enabling faster feature deployment and improved operational workflows."
       ]
     },
     {
@@ -195,20 +221,27 @@ const workExperiences = {
       company: "Meituan(Dianping App)",
       companylogo: require("./assets/images/dianpingLogo.png"),
       date: "April 2020 – July 2020",
-      desc: "Contributed to the development and deployment of customer-facing features, improving user experience. Completed upgrades for several services, enhancing system stability and security. Gained proficiency in Java, web application frameworks, and layered application design principles."
+      desc: "Gained hands-on experience in backend development and took on several key responsibilities, laying a strong foundation for my future work as a full-time developer.",
+      descBullets: [
+        "Contributed to developing and deploying customer-facing features, improving user experience.",
+        "Completed upgrades for several services, enhancing system stability and security.",
+        "Gained proficiency in Java, web application frameworks, and layered application design principles."
+      ]
     }
   ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
+// TODO 在github上维护一两个自己的项目之后再放出来
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
+// TODO: 完善我的BigProject之后再打开
 
 const bigProjects = {
   title: "Big Projects",
@@ -238,7 +271,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -251,53 +284,62 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Basketball Robot Team",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Second Place of 2017 China Robot Competition Basketball Robot Group. Developed an OpenCV-based vision system for the basketball robot, enhancing real-time object detection and competition performance.",
+      image: require("./assets/images/BasketballRobot.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "Detail",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "News",
+          url: "https://jwb.shu.edu.cn/info/1016/35211.htm"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Soccer Robot Team",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Contributed to winning the China Championship and achieving Top 8 in the RoboCup Soccer World Cup. Developed an optimized camera extrinsics calibration system for NAO robots, reducing calibration time by 80% and enhancing accuracy for vision tasks.",
+      image: require("./assets/images/naoRobot.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
+          name: "Detail",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Media",
+          url: "https://www.youtube.com/watch?v=KkZf3MttR2s&t=19s"
+        },
+        {
+          name: "News",
+          url: "http://news.tongji.edu.cn/info/1003/69413.htm"
+        },
+        {
+          name: "Pattern",
+          url: "https://patents.google.com/patent/CN110930458A/en?oq=CN110930458A"
         }
       ]
     }
+    //    ,{
+    //      title: "PWA Web App Developer",
+    //      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //      image: require("./assets/images/pwaLogo.webp"),
+    //      imageAlt: "PWA Logo",
+    //      footerLink: [
+    //        {
+    //            name: "Certification",
+    //            url: ""},
+    //        {
+    //          name: "Final Project",
+    //          url: "https://pakistan-olx-1.firebaseapp.com/"
+    //        }
+    //      ]
+    //    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -371,7 +413,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
   email_address: "hannahsun.ca@gmail.com"
 };
 
