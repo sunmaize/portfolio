@@ -46,14 +46,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "EXPERIENCED BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "EXPERIENCED BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Back end / User Interfaces for your web and mobile applications"
     ),
-    emoji(
-      "⚡ Integration of third party services such as AWS"
-    )
+    emoji("⚡ Integration of third party services such as AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
