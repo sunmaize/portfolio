@@ -74,66 +74,76 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-// Both Font Awesome and custom image icons
-// iconUrls are from https://icons8.com/icons/
-
+  // Both Font Awesome and custom image icons
+  // iconUrls are from https://icons8.com/icons/
 
   softwareSkills: [
     {
       skillName: "Java",
-      iconUrl: "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
     },
     {
       skillName: "cpp",
-      iconUrl: "https://img.icons8.com/?size=100&id=tmthf8xybKpa&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=tmthf8xybKpa&format=png&color=000000"
     },
     {
       skillName: "python",
-      iconUrl: "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
     },
     {
       skillName: "Spring",
-      iconUrl: "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
     },
     {
       skillName: "MySQL",
-      iconUrl: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
     },
     {
       skillName: "Redis",
-      iconUrl: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000"
     },
     {
       skillName: "ElasticSearch",
-      iconUrl: "https://img.icons8.com/?size=100&id=aGBLcugRkYpT&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=aGBLcugRkYpT&format=png&color=000000"
     },
     {
       skillName: "Git",
-      iconUrl: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
     },
     {
       skillName: "Docker",
-      iconUrl: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000"
     },
-//    {
-//      skillName: "swift",
-//      fontAwesomeClassname: "fab fa-swift"
-//    },
-//    {
-//      skillName: "npm",
-//      fontAwesomeClassname: "fab fa-npm"
-//    },
-//    {
-//      skillName: "database",
-//      iconUrl: "https://img.icons8.com/?size=100&id=8305&format=png&color=000000"
-//    },
+    //    {
+    //      skillName: "swift",
+    //      fontAwesomeClassname: "fab fa-swift"
+    //    },
+    //    {
+    //      skillName: "npm",
+    //      fontAwesomeClassname: "fab fa-npm"
+    //    },
+    //    {
+    //      skillName: "database",
+    //      iconUrl: "https://img.icons8.com/?size=100&id=8305&format=png&color=000000"
+    //    },
     {
       skillName: "aws",
-      iconUrl: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
     },
     {
-      skillName:"Kafka",
-      iconUrl:"https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000"
+      skillName: "Kafka",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000"
     }
   ],
   display: true // Set false to hide this section, defaults to true
