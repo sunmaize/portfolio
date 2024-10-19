@@ -3,9 +3,9 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  font-size: 3rem; // Font Awesome 图标大小
+  margin-bottom: 0;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -13,19 +13,36 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+  text-align: center; // 让图标和文字居中对齐
 }
 
 .software-skill-inline > i {
-  color: $subTitle;
+  color: $subTitle; // Font Awesome 图标颜色
+  transition: color 0.3s ease; // 添加悬停过渡效果
 }
 
 .software-skill-inline > i:hover {
-  color: $skillsColor;
+  color: $skillsColor; // 悬停时的颜色
 }
+
+.software-skill-inline > img {
+  width: 3rem; // 自定义图标的宽度
+  height: 3rem; // 自定义图标的高度
+  margin-bottom: 5px; // 可选：调整图标与文字的间距
+  vertical-align: middle; // 让图标与文本对齐
+  transition: filter 0.3s ease; // 添加悬停过渡效果
+}
+
+.software-skill-inline > img:hover {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(89%) saturate(296%) hue-rotate(222deg) brightness(103%) contrast(100%); // 调整为你需要的颜色
+}
+
 .software-skill-inline > p {
-  color: $subTitle;
-  font-size: 10px;
+  color: $subTitle; // 文字颜色
+  font-size: 12px; // 文字大小
 }
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
+
+.software-skill-inline > i:hover ~ p,
+.software-skill-inline > img:hover ~ p {
+  color: $skillsColor; // 悬停时文字的颜色
 }

@@ -74,59 +74,66 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
+// Both Font Awesome and custom image icons
+// iconUrls are from https://icons8.com/icons/
+
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      iconUrl: "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "cpp",
+      iconUrl: "https://img.icons8.com/?size=100&id=tmthf8xybKpa&format=png&color=000000"
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      iconUrl: "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Spring",
+      iconUrl: "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+    },
+    {
+      skillName: "MySQL",
+      iconUrl: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
+    },
+    {
+      skillName: "Redis",
+      iconUrl: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000"
+    },
+    {
+      skillName: "ElasticSearch",
+      iconUrl: "https://img.icons8.com/?size=100&id=aGBLcugRkYpT&format=png&color=000000"
+    },
+    {
+      skillName: "Git",
+      iconUrl: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+    },
+    {
+      skillName: "Docker",
+      iconUrl: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000"
+    },
+//    {
+//      skillName: "swift",
+//      fontAwesomeClassname: "fab fa-swift"
+//    },
+//    {
+//      skillName: "npm",
+//      fontAwesomeClassname: "fab fa-npm"
+//    },
+//    {
+//      skillName: "database",
+//      iconUrl: "https://img.icons8.com/?size=100&id=8305&format=png&color=000000"
+//    },
+    {
+      skillName: "aws",
+      iconUrl: "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+    },
+    {
+      skillName:"Kafka",
+      iconUrl:"https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -200,7 +207,8 @@ const workExperiences = {
       date: "July 2022 – May 2024",
       desc: "Took on more leadership responsibilities, including system design, backend architecture improvements, and driving key technical initiatives that significantly impacted system scalability, performance, and business operations.",
       descBullets: [
-        "Led the modularization of the review incentive system, reducing development time by 70%. Spearheaded database optimization for Free Trial, improving storage stability and system scalability.",
+        "Led the modularization of the review incentive system, reducing development time by 70%.",
+        "Spearheaded database optimization for Free Trial, improving storage stability and system scalability.",
         "Developed subscription features for Free Trial, increasing DAU by 16% and driving user engagement."
       ]
     },

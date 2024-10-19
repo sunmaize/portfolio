@@ -34,7 +34,12 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {greeting.subTitle.map((line, index) => (
+                  <React.Fragment key={index}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
