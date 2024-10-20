@@ -375,6 +375,13 @@ const blogSection = {
       title: "Deploying Blog Using WordPress on AWS with Docker",
       description:
         "Learn how to deploy a WordPress blog on AWS using Docker, combining cloud infrastructure with containerization for a scalable, efficient setup. This guide showcases my technical ability in cloud services and Docker orchestration."
+    },
+    {
+      url: "https://medium.com/@hannahsun.ca/building-and-deploying-a-personal-portfolio-website-with-github-pages-1104715acc4a",
+      title:
+        "Building and Deploying a Personal Portfolio Website with GitHub Pages",
+      description:
+        "Learn how to build and deploy your own developer portfolio using React, GitHub Pages, and custom icons to showcase your skills in style."
     }
   ],
   display: true // Set false to hide this section, defaults to true
