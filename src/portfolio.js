@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Hannah Sun",
-  title: "Hi there, I'm Hannah",
+  username: "Haoran Sun",
+  title: "Hi there, I'm Haoran",
   subTitle: [
     emoji(
       "🔧 Over three years of experience as a backend developer for Meituan (Dianping App)"
@@ -29,7 +29,7 @@ const greeting = {
     emoji(
       " 💻 Proficient in Java and Spring, with over 100k lines of code written for the Dianping App"
     ),
-    emoji("💼 Seeking job in BC, Canada ")
+    emoji("💼 Working for Mastercard as A SDE II now")
   ],
   resumeLink:
     "https://docs.google.com/document/d/1dHEOj-4GocPFqiXej0mltcRS2Pj11NN_NbCD5N9JkWY/edit?usp=sharing", // Set to empty to hide the button
@@ -210,6 +210,19 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Development Engineer II",
+      company: "Mastercard",
+      companylogo: require("./assets/images/mastercardLogo.png"),
+      date: "November 2024 – Present",
+      desc: "As a backend software engineer in the Decision Management Program, I focus on developing and maintaining scalable backend systems that power Mastercard’s decision-making processes.",
+      descBullets: [
+        "Designing, implementing, and optimizing APIs.",
+        "Enhancing system performance, reliability, and scalability.",
+        "Collaborating with cross-functional teams to integrate advanced tools.",
+        "Supporting business-critical systems to ensure seamless transaction processing and decision-making capabilities."
+      ]
+    },
     {
       role: "Software Development Engineer II",
       company: "Meituan",
